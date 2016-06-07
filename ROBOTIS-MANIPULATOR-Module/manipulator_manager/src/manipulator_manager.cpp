@@ -58,7 +58,9 @@ int main(int argc, char **argv)
     _controller->StartTimer();
 
     while(ros::ok())
-    { }
+    {
+        usleep(100);
+    }
 
     return 0;
 }
